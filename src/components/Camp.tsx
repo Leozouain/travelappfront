@@ -66,6 +66,7 @@ const Camp = () => {
                     subtitle="Prigen, Pasuruan"
                     peopleJoined="50+ Joined"
                 />
+
                 <Campsite
                     backgroundImage="bg-bg-img-2"
                     title="Mountain View Camp"
