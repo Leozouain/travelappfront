@@ -6,8 +6,9 @@ const Hero = () => {
     return (
         <section className="max-container padding-container flex flex-col 
         gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row ">
-            <div className="" />
+            <div className=" " />
             {/* LEFT SIDE */}
+
 
             <div className="relative z-20 flex-1 flex-col xl:w-1/2">
                 <img
@@ -68,24 +69,17 @@ const Hero = () => {
 
             </div>
 
-            <div className="relative flex flex-1 items-center    overflow-hidden justify-center" >
-                <div >
+
+            {/* right side  */}
+
+
+
+            <div className=" flex flex-1  lg:h-[50vh] lg:w-screen   overflow-hidden justify-center" >
+                <div className=" overflow-hidden" >
                     <video
-                        className="aspect-video"
-                        src={videoHero}
-                        autoPlay muted loop
-                        width='100%'
-                        height='100%'></video>
+                        className="flex flex-1 overflow-hidden object-cover w-[100%] h-[100%]"
+                        src={videoHero} autoPlay loop muted></video>
 
-
-                    {/* <iframe
-                        className="w-full aspect-video "
-                        height='700' width={2000} cov
-                        src="https://www.youtube.com/embed/NcBjx_eyvxc?mute=1&autoplay=1&transparent=1 "
-                        title="Madeira | Cinematic FPV"
-
-                        allow=" transparent; autoplay; "
-                    /> */}
                 </div>
                 {/* <div className="relative flex z-20 w-[268px] flex-col gap-8
                 rounded-3xl bg-green-90 px-7 py-8">
