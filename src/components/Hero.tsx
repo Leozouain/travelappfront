@@ -1,11 +1,12 @@
 
 import Button from "./Button"
+import videoHero from '../assets/production_id_4193140 (1440p).mp4'
 
 const Hero = () => {
     return (
         <section className="max-container padding-container flex flex-col 
         gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row ">
-            <div className="hero-map" />
+            <div className="" />
             {/* LEFT SIDE */}
 
             <div className="relative z-20 flex-1 flex-col xl:w-1/2">
@@ -67,8 +68,26 @@ const Hero = () => {
 
             </div>
 
-            <div className="relative flex flex-1 items-start ">
-                <div className="relative flex z-20 w-[268px] flex-col gap-8
+            <div className="relative flex flex-1 items-center    overflow-hidden justify-center" >
+                <div >
+                    <video
+                        className="aspect-video"
+                        src={videoHero}
+                        autoPlay muted loop
+                        width='100%'
+                        height='100%'></video>
+
+
+                    {/* <iframe
+                        className="w-full aspect-video "
+                        height='700' width={2000} cov
+                        src="https://www.youtube.com/embed/NcBjx_eyvxc?mute=1&autoplay=1&transparent=1 "
+                        title="Madeira | Cinematic FPV"
+
+                        allow=" transparent; autoplay; "
+                    /> */}
+                </div>
+                {/* <div className="relative flex z-20 w-[268px] flex-col gap-8
                 rounded-3xl bg-green-90 px-7 py-8">
                     <div className="flex flex-col">
                         <div className="flexBetween">
@@ -111,7 +130,7 @@ const Hero = () => {
 
                     </div>
 
-                </div>
+                </div> */}
 
             </div>
         </section>
