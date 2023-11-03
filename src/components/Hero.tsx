@@ -1,7 +1,6 @@
 
 import Button from "./Button"
-import videoHero from '../assets/production_id_4193140 (1440p).mp4'
-import background from '../../public/hero-drone.jpg'
+
 
 
 const Hero = () => {
