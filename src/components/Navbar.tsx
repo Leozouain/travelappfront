@@ -16,8 +16,11 @@ const Navbar = () => {
 
 
 
-            <a href="/" className={`${menu && 'hidden'} lg:block`} >
-                <img src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+            <a href="/" className={`${menu && 'hidden'} flex justify-center items-center
+            font-extrabold `} >
+                <img src="/fulllogo.png" alt="logo" width={90}
+                    className="h-[full] overflow-hidden" />
+                <p className="text-[rgb(26,51,116)] text-2xl">FLY DRONE DF</p>
             </a>
 
 
@@ -33,10 +36,12 @@ const Navbar = () => {
                 <div className="block">
                     <div className="flex  ">
 
-                        <a href="/" className="lg:hidden absolute  " >
-                            <img src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+                        <a href="/" className="lg:hidden absolute flex justify-center items-center  " >
+                            <img src="/fulllogo.png" alt="logo" width={90}
+                                className="h-[full] overflow-hidden" />
+                            <p className="text-[rgb(26,51,116)] text-2xl font-extrabold ">FLY DRONE DF</p>
                         </a>
-                        <div className="  justify-center items-center">
+                        <div className="  justify-center items-center mt-10">
 
                             <ul className={`pt-5 bg-white  h-full lg:hidden flex flex-col justify-center w-screen`}>
                                 {NAV_LINKS.map((link) => (
