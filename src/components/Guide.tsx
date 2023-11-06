@@ -6,41 +6,45 @@ const Guide = () => {
             <div className=" padding-container max-container
             w-full pb-24">
                 <img
-                    src="/camp.svg"
+                    src="/fulllogo.png"
                     alt="camp"
                     width={50}
                     height={50}
 
                 />
-                <p className="regular-18 -mt-1 mb-3 text-green-50">
-                    WE ARE HERE FOR YOU
+                <p className="regular-18 -mt-1 mb-3 text-[rgb(26,51,116)]">
+                    ESTAMOS AQUI POR VOÇÊ
                 </p>
                 <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
                     <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-                        Guide You to Easy Path
+                        Qualidade, Consistência e Rapidez
                     </h2>
                     <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-                        Only with the hilink application you will no longer get
-                        lost and get lost again, because we already support
-                        offline maps when there is no internet connection in the
-                        field. Invite your friends, relatives and friends to
-                        have fun in the wilderness through the valley and reach
-                        the top of the mountain
+                        Nosso compromisso com a 'Qualidade, Consistência e Rapidez'
+                        é o alicerce do nosso negócio de drones. Com uma atenção meticulosa aos
+                        detalhes, garantimos que cada filmagem seja uma obra-prima, cada vez.
+                        A consistência em nossa entrega garante que você sempre receba o melhor,
+                        não importa quando ou onde. E nossa habilidade de resposta rápida significa que
+                        estaremos lá para capturar os momentos que importam, sem demora. Quando você
+                        nos escolhe, está escolhendo um padrão de excelência que tornará seu projeto
+                        único e notável. Transforme suas
+                        visões em realidade com a nossa abordagem dedicada a qualidade, consistência
+                        e rapidez.
                     </p>
 
                 </div>
             </div>
 
-            <div className="flexCenter max-container relative w-full ">
+            <div className="flexCenter max-container relative w-full h-[580px] overflow-hidden rounded-xl  ">
                 <img
-                    className="w-full object-cover object-center 2xl:rounded-5xl"
-                    src='/boat.png'
+                    className="lg:block hidden w-full object-cover object-center 2xl:rounded-5xl"
+                    src='https://images.unsplash.com/photo-1594056889772-63ee06c81a2a?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                     alt="boat"
                     width={1440}
                     height={580}
                 />
 
-                <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3
+                <div className="lg:absolute flex bg-white py-8 pl-5 pr-7 gap-3
                 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
                     <img
                         className="h-full w-auto"
@@ -51,31 +55,41 @@ const Guide = () => {
                     />
                     <div className="flexBetween flex-col">
                         <div className="flex w-full flex-col">
-                            <div className="flexBetween w-full">
-                                <p className="regular-16 text-gray-20">
-                                    Destination
-                                </p>
-                                <p className="bold-16 text-green-50">
-                                    48 min
-                                </p>
-                            </div>
+
                             <p className="bold-20 mt-2">
-                                Aguas Calientes
+                                Nos conte sobre o seu projeto
+                            </p>
+
+                            <p className="regular-16 text-gray-20">
+                                Nos conte detalhes do seu projeto
                             </p>
 
                         </div>
                         <div className="flex w-full flex-col">
 
-                            <p className="regular-16 text-gray-20">
-                                Start track
+                            <p className="bold-20 mt-2">
+                                Agendaremos um voô.
                             </p>
 
-                            <h4 className="bold-20 mt-2 whitespace-nowrap">
-                                Aguas Calientes
-                            </h4>
-
+                            <p className="regular-16 text-gray-20">
+                                Um de nossos pilotos irá até o seu local.
+                            </p>
 
                         </div>
+                        <div className="flex w-full flex-col">
+
+                            <p className="bold-20 mt-2">
+                                Receba suas imagens digitalmente
+                            </p>
+
+                            <p className="regular-16 text-gray-20">
+                                Enviamos suas imagens via E-mail em até 24hrs
+                                <br />
+                                <span className="text-red-500">para serviços com edição por favor entre em contato conosco</span>
+                            </p>
+
+                        </div>
+
 
                     </div>
 

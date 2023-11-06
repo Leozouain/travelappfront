@@ -31,26 +31,7 @@ const Hero = () => {
                 </p>
 
                 <div className="my-11 flex flex-wrap gap-5">
-                    {/* <div className="flex item-center gap-2">
-                        {Array(5).fill(1).map((_, index) => (
-                            <img
-                                src="/star.svg"
-                                key={index}
-                                alt="star"
-                                width={24}
-                                height={24}
-                            />
-                        ))}
 
-                        <p className="bold-16 lg:bold-20 text-blue-70">
-                            198k
-                            <span className="regular-16 lg:regular-20 ml-1">
-                                Excellent Reviews
-                            </span>
-                        </p>
-
-
-                    </div> */}
 
                     {/* Buttons Wrapper bellow */}
 
@@ -59,14 +40,10 @@ const Hero = () => {
                             type="button"
                             title="Vamos Decolar Juntos!"
                             variant="btn_green"
+                            icon="/drone_icon.png"
 
                         />
-                        {/* <Button
-                            type="button"
-                            title="How we work?"
-                            icon="/play.svg"
-                            variant="btn_white_text"
-                        /> */}
+
                     </div>
 
                 </div>
@@ -91,53 +68,7 @@ const Hero = () => {
                     style={{ backgroundImage: 'url(https://img.freepik.com/free-photo/man-with-drone-mountains-flying-clouds_158595-6117.jpg?w=740&t=st=1698973712~exp=1698974312~hmac=e3159951a41240eca7e5e2aa7bf0bc84cb7252f0de06b144b6b1c1e30097a95a)' }} >
 
                 </div>
-                {/* <video
-                        className="flex flex-1 overflow-hidden object-cover w-[100%] h-[100%]"
-                        src={videoHero} autoPlay loop muted></video> */}
-                {/* <div className="relative flex z-20 w-[268px] flex-col gap-8
-                rounded-3xl bg-green-90 px-7 py-8">
-                    <div className="flex flex-col">
-                        <div className="flexBetween">
-                            <p className="regular-16 text-gray-20">
-                                Location
-                            </p>
-                            <img src="/close.svg"
-                                alt="close"
-                                width={24}
-                                height={24} />
 
-                        </div>
-
-                        <p className="bold-20 text-white">
-                            Aguas Calientes
-                        </p>
-
-                        <div className="flexBetween">
-                            <div className="flex flex-col">
-                                <p className="regular-16 block text-gray-20">
-                                    Distance
-
-                                </p>
-                                <p className="bold-20 text-white">
-                                    173.28 mi
-                                </p>
-
-                            </div>
-                            <div className="flex flex-col">
-                                <p className="regular-16 block text-gray-20">
-                                    Elevation
-
-                                </p>
-                                <p className="bold-20 text-white">
-                                    2.040 km
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div> */}
 
             </div>
         </section>

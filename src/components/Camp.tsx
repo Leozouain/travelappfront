@@ -1,24 +1,26 @@
 import { PEOPLE_URL } from "../constants"
 
-
 interface CampProps {
     backgroundImage: string
     title: string
     subtitle: string
-    peopleJoined: string
+    peopleJoined?: string
+    id: string
 }
 
-const Campsite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps) => {
+const Campsite = ({ backgroundImage, title, subtitle, peopleJoined, id }: CampProps) => {
     return (
-        <div className={`h-full w-full min-w-full xl:min-w-[1100px] ${backgroundImage} bg-cover
+        <div
+            id={id}
+            className={`h-full w-full min-w-full xl:min-w-[1100px] ${backgroundImage} bg-cover
         bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
             <div className="flex h-full flex-col items-start justify-between
                 p-6 lg:px-20 ">
 
                 <div className="flexCenter gap-4">
-                    <div className="rounded-full bg-green-50 p-4">
+                    <div className="rounded-3xl bg-[rgba(26,51,116,0.34)] p-2">
                         <img
-                            src="/folded-map.svg"
+                            src="/drone_icon.png"
                             alt="map"
                             width={28}
                             height={28}
@@ -30,7 +32,7 @@ const Campsite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
                     </div>
                 </div>
                 {/* Element displaying people */}
-                <div className="flexCenter gap-6 ">
+                {/* <div className="flexCenter gap-6 ">
                     <span className="flex -space-x-4 overflow-hidden">
                         {PEOPLE_URL.map(url => (
                             <img
@@ -48,52 +50,63 @@ const Campsite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
                         {peopleJoined}
                     </p>
 
-                </div>
+                </div> */}
             </div>
         </div>
     )
 }
 
 const Camp = () => {
+
     return (
         <section className=" 2xl:max-container 
         relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
             <div className="hide-scrollbar flex h-[340px] w-full items-start
-            justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
+            justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]  ">
                 <Campsite
+                    id='#slide1'
                     backgroundImage="bg-bg-img-1"
-                    title="Putuk Truno Camp"
-                    subtitle="Prigen, Pasuruan"
+                    title="Ponte JK"
+                    subtitle="Brasilia - DF"
                     peopleJoined="50+ Joined"
                 />
 
                 <Campsite
+                    id='#slide1'
                     backgroundImage="bg-bg-img-2"
-                    title="Mountain View Camp"
-                    subtitle="Somewhere in the Wilderness"
+                    title="Explanada dos Ministerios"
+                    subtitle="Brasilia - DF"
                     peopleJoined="50+ Joined"
                 />
+
 
             </div>
 
+
             {/* GREEN ADD OVERFLOW */}
             <div className=" flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
-                <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px]
+                <div className="bg-[rgb(26,51,116)] p-8 lg:max-w-[500px] xl:max-w-[734px]
                 xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
                     <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
-                        <strong> Feeling Lost</strong> And Not Knowind The Way?
+                        Não sabe o que fazer para valorizar o seu <strong>evento</strong> ou <strong>negócio</strong>??
                     </h2>
                     <p className="regular-14 xl:regular-16 mt-5 text-white">
-                        Starting from the anxiety of the climber when visiting a new climbing
-                        location, the possibility of getting lost is very large.
-                        That's why we are here for those of you who want to start an adventure
+                        "Deixe-nos mostrar o caminho! Com nossa paixão por capturar
+                        momentos extraordinários e transformá-los em experiências
+                        inesquecíveis, oferecemos uma gama de serviços de filmagem
+                        com drones e edição de vídeo de última geração. Do registro
+                        aéreo de tirar o fôlego ao storytelling envolvente, nossa equipe
+                        especializada está pronta para elevar sua visão e proporcionar
+                        resultados que deixarão uma impressão duradoura. Transforme seu
+                        evento ou negócio em algo verdadeiramente memorável com o poder
+                        da filmagem com drones e edição criativa.
                     </p>
                     <img
-                        src='/quote.svg'
+                        src='/drone_icon.png'
                         alt="camp-2"
                         width={186}
                         height={219}
-                        className="camp-quote"
+                        className="camp-quote opacity-20"
                     />
                 </div>
 
