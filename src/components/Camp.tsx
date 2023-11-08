@@ -8,7 +8,7 @@ interface CampProps {
     id: string
 }
 
-const Campsite = ({ backgroundImage, title, subtitle, peopleJoined, id }: CampProps) => {
+const Campsite = ({ backgroundImage, title, subtitle, id }: CampProps) => {
     return (
         <div
             id={id}
