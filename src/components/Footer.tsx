@@ -23,6 +23,7 @@ const Footer = () => {
                     <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
                         {FOOTER_LINKS.map(columns => (
                             <FooterColumn
+                                key={columns.title}
                                 title={columns.title}
 
                             >
