@@ -1,4 +1,4 @@
-import { PEOPLE_URL } from "../constants"
+
 
 interface CampProps {
     backgroundImage: string
