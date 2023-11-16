@@ -52,25 +52,18 @@ const GetApp = () => {
                     <h2 className=" bold-40 lg:bold-64 xl:max-w-[520px]">
                         Entre em contato agora!
                     </h2>
-                    {/* 
-                    <p className="regular-16 text-gray-10">
-                        Available on iOS and Android
-                    </p> */}
-                    <div className=" flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
 
 
-
-                    </div>
                 </div>
 
 
 
                 {/* right side  */}
-                <div className="flex flex-1 items-center justify-end">
+                <div className="flex flex-1 items-center justify-center lg:justify-end">
                     <form action="mailto:leozouain@gmail.com"
                         method="POST"
                         onSubmit={sendEmail}
-                        className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+                        className=" ">
                         <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
                             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                                 <div>
@@ -155,12 +148,7 @@ const GetApp = () => {
                                 </div>
                             </div>
                             <div className="mt-8 flex justify-end">
-                                {/* <button
-                                    type="submit"
-                                    className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-                                >
-                                    Send message
-                                </button> */}
+
                                 <Button
 
                                     type="submit"
