@@ -38,7 +38,7 @@ const Guide = () => {
             <div className="flexCenter max-container relative w-full h-[580px] overflow-hidden rounded-xl  ">
                 <img
                     className="lg:block hidden w-full object-cover object-center 2xl:rounded-5xl"
-                    src='https://images.unsplash.com/photo-1594056889772-63ee06c81a2a?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                    src='/drone-photo-3.jpg'
                     alt="boat"
                     width={1440}
                     height={580}
