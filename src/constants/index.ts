@@ -67,20 +67,18 @@ export const FOOTER_LINKS = [
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: "Contact Us",
+  title: "Entre em Contato",
   links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "WhatsApp", value: "123-456-7890" },
+    { label: "Email", value: "flydronedf@gmail.com" },
   ],
 };
 
 export const SOCIALS = {
-  title: "Social",
+  title: "Nossas Mídias",
   links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
+    { link: "https://www.instagram.com/flydronedf/", logo: "/instagram.svg" },
+    { link: "https://www.tiktok.com/@flydronedf", logo: "/tiktok.svg" },
+    { link: "https://www.youtube.com/@flydronedf", logo: "/youtube.svg" },
   ],
 };

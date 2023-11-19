@@ -1,4 +1,4 @@
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from "../constants"
+import { FOOTER_CONTACT_INFO, SOCIALS } from "../constants"
 
 
 const Footer = () => {
@@ -9,36 +9,14 @@ const Footer = () => {
                 <div className="flex flex-col items-start justify-center gap-[10%] 
                 md:flex-row">
 
-                    <a
-                        href="/"
-                        className="mb-10"
-                    >
-                        <img
-                            src="/hilink-logo.svg"
-                            alt="logo"
-                            width={74}
-                            height={29}
-                        />
+                    <a href="/" className={` flex justify-center items-center
+            font-extrabold `} >
+                        <img src="/fulllogo.png" alt="logo" width={90}
+                            className="h-[full] overflow-hidden" />
+                        <p className="text-[rgb(26,51,116)] text-2xl">FLY DRONE DF</p>
                     </a>
-                    <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
-                        {FOOTER_LINKS.map(columns => (
-                            <FooterColumn
-                                key={columns.title}
-                                title={columns.title}
+                    <div className="flex flex-wrap gap-10 sm:justify-evenly md:flex-1">
 
-                            >
-                                <ul className="regular-14 flex flex-col gap-4 text-gray-30">
-                                    {columns.links.map(link => (
-                                        <a
-                                            href='/'
-                                            key={link}
-                                        >
-                                            {link}
-                                        </a>
-                                    ))}
-                                </ul>
-                            </FooterColumn>
-                        ))}
                         <div className="flex flex-col gap-5">
                             <FooterColumn
                                 title={FOOTER_CONTACT_INFO.title}
@@ -60,18 +38,19 @@ const Footer = () => {
                             </FooterColumn>
                         </div>
                         {/* SOCIALS  */}
-                        <div className="flex flex-col gap-5">
+                        <div className="flex flex-col gap-1">
                             <FooterColumn
                                 title={SOCIALS.title}
                             >
                                 <ul className="regular-14 flex gap-4 text-gray-30">
                                     {SOCIALS.links.map(link => (
                                         <a
-                                            href='/'
-                                            key={link}
+                                            href={link.link}
+                                            key={link.link}
+                                            target="__blank"
                                         >
                                             <img
-                                                src={link}
+                                                src={link.logo}
                                                 alt="logo"
                                                 width={24}
                                                 height={24}
@@ -91,7 +70,7 @@ const Footer = () => {
 
                 <div className="border bg-gray-20" />
                 <p className="regular-14 w-full text-center text-gray-30">
-                    2023 Hilink | All rights reserved
+                    2023 FlyDrone DF | Todos direitos reservados
                 </p>
 
             </div>
