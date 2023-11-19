@@ -41,11 +41,12 @@ const Camp = () => {
 
     return (
         <section className=" 2xl:max-container 
-        relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+        relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20"
+            id="aboutus">
             <div className="hide-scrollbar flex h-[340px] w-full items-start
             justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]  ">
                 <Campsite
-                    id='#slide1'
+                    id='slide1'
                     backgroundImage="bg-bg-img-1"
                     title="Ponte JK"
                     subtitle="Brasilia - DF"
@@ -53,12 +54,13 @@ const Camp = () => {
                 />
 
                 <Campsite
-                    id='#slide1'
+                    id='slide2'
                     backgroundImage="bg-bg-img-2"
                     title="Explanada dos Ministerios"
                     subtitle="Brasilia - DF"
                     peopleJoined="50+ Joined"
                 />
+
 
 
             </div>

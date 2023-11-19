@@ -46,7 +46,7 @@ const Navbar = () => {
                             <ul className={`pt-5 bg-white  h-full lg:hidden flex flex-col justify-center w-screen`}>
                                 {NAV_LINKS.map((link) => (
                                     <>
-                                        <a href={link.href} key={link.key}
+                                        <a href={link.href} target={link.href} key={link.key}
                                             className="text-20 text-gray-50 
                                          items-center cursor-pointer pb-1.5 
                                          transition-all hover:font-bold p-3">

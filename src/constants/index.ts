@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "how_hilink_work", label: "How Hilink Work?" },
-  { href: "/", key: "services", label: "Services" },
-  { href: "/", key: "pricing ", label: "Pricing " },
-  { href: "/", key: "contact_us", label: "Contact Us" },
+  { href: "#home", key: "home", label: "Home" },
+  { href: "#aboutus", key: "about_us", label: "Sobre Nós" },
+  { href: "#funcionamento", key: "how_it_works ", label: "Como Funciona " },
+  { href: "#servicos", key: "services", label: "Serviços" },
+  { href: "#contato", key: "contact_us", label: "Contato" },
 ];
 
 // CAMP SECTION

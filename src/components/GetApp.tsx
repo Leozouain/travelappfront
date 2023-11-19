@@ -43,7 +43,8 @@ const GetApp = () => {
 
 
     return (
-        <section className="flexCenter w-full flex-col pb-[100px]">
+        <section className="flexCenter w-full flex-col pb-[100px]"
+            id="contato">
             <div className="get-app ">
                 {/* left side   */}
                 <div className="z-20 flex flex-1 flex-col w-full justify-center 

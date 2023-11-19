@@ -2,7 +2,8 @@
 
 const Guide = () => {
     return (
-        <section className="flexCenter flex-col">
+        <section className="flexCenter flex-col"
+            id="funcionamento">
             <div className=" padding-container max-container
             w-full pb-24">
                 <img

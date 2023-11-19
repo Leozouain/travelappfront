@@ -6,7 +6,8 @@ import Button from "./Button"
 const Hero = () => {
     return (
         <section className=" relative max-container padding-container flex flex-col 
-        gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row ">
+        gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row "
+            id="home">
             <div className=" " />
             {/* LEFT SIDE */}
 
@@ -36,13 +37,16 @@ const Hero = () => {
                     {/* Buttons Wrapper bellow */}
 
                     <div className="flex w-full flex-col gap-3 sm:flex-row">
-                        <Button
-                            type="button"
-                            title="Vamos Decolar Juntos!"
-                            variant="btn_green"
-                            icon="/drone_icon.png"
+                        <a href="#contato">
+                            <Button
 
-                        />
+                                type="button"
+                                title="Vamos Decolar Juntos!"
+                                variant="btn_green"
+                                icon="/drone_icon.png"
+
+                            />
+                        </a>
 
                     </div>
 
