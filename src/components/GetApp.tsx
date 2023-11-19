@@ -52,6 +52,13 @@ const GetApp = () => {
                     <h2 className=" bold-40 lg:bold-64 xl:max-w-[520px]">
                         Entre em contato agora!
                     </h2>
+                    <a href="https://wa.me/13235353472" target="__blank">
+                        <img src="/whatss.png" alt="whatssapp"
+                            height={30} width={80} />
+                    </a>
+
+
+
 
 
                 </div>
@@ -160,6 +167,7 @@ const GetApp = () => {
                             </div>
                         </div>
                     </form>
+
 
                 </div>
 
