@@ -1,3 +1,6 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Autoplay, Pagination, Navigation, Mousewheel } from 'swiper/modules';
 
 
 interface CampProps {
@@ -8,11 +11,11 @@ interface CampProps {
     id: string
 }
 
-const Campsite = ({ backgroundImage, title, subtitle, id }: CampProps) => {
+const Slider = ({ backgroundImage, title, subtitle, id }: CampProps) => {
     return (
         <div
             id={id}
-            className={`h-full w-full min-w-full xl:min-w-[1100px] ${backgroundImage} bg-cover
+            className={`min-h-[60vh] w-full min-w-full xl:min-w-[1100px] ${backgroundImage} bg-cover
         bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
             <div className="flex h-full flex-col items-start justify-between
                 p-6 lg:px-20 ">
@@ -26,7 +29,7 @@ const Campsite = ({ backgroundImage, title, subtitle, id }: CampProps) => {
                             height={28}
                         />
                     </div>
-                    <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-1 bg-[#00000036] px-5 rounded-lg py-1">
                         <h4 className="bold-18 text-white">{title}</h4>
                         <p className="regular-14 text-white">{subtitle}</p>
                     </div>
@@ -43,27 +46,81 @@ const Camp = () => {
         <section className=" 2xl:max-container 
         relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20"
             id="aboutus">
-            <div className="hide-scrollbar flex h-[340px] w-full items-start
-            justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]  ">
-                <Campsite
+            <div className="hide-scrollbar flex h-fit w-full items-start
+            justify-start gap-8 overflow-x-auto lg:h-[600px] xl:h-[640px]  rounded-5xl
+            z-0 ">
+
+
+                <Swiper
+
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    mousewheel={true}
+
+                    centeredSlides={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Autoplay, Pagination, Navigation, Mousewheel]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide><Slider
+                        id='slide1'
+                        backgroundImage="bg-bg-img-1"
+                        title="Ponte JK"
+                        subtitle="Brasilia - DF"
+                        peopleJoined="50+ Joined"
+                    /></SwiperSlide>
+                    <SwiperSlide><Slider
+                        id='slide1'
+                        backgroundImage="bg-bg-img-2"
+                        title="Catedral"
+                        subtitle="Brasilia - DF"
+                        peopleJoined="50+ Joined"
+                    /></SwiperSlide>
+                    <SwiperSlide><Slider
+                        id='slide1'
+                        backgroundImage="bg-bg-img-3"
+                        title="Ponte JK"
+                        subtitle="Brasilia - DF"
+                        peopleJoined="50+ Joined"
+                    /></SwiperSlide>
+                    <SwiperSlide><Slider
+                        id='slide1'
+                        backgroundImage="bg-bg-img-4"
+                        title="Torre de TV"
+                        subtitle="Brasilia - DF"
+                        peopleJoined="50+ Joined"
+                    /></SwiperSlide>
+
+                    ...
+                </Swiper>
+
+
+            </div>
+
+            {/* <Slider
                     id='slide1'
                     backgroundImage="bg-bg-img-1"
                     title="Ponte JK"
                     subtitle="Brasilia - DF"
                     peopleJoined="50+ Joined"
-                />
+                /> */}
+            {/* <video src="/catedral.mp4" autoPlay
+                    loop ></video>
 
-                <Campsite
+                <Slider
                     id='slide2'
                     backgroundImage="bg-bg-img-2"
                     title="Explanada dos Ministerios"
                     subtitle="Brasilia - DF"
                     peopleJoined="50+ Joined"
-                />
-
-
-
-            </div>
+                /> */}
 
 
             {/* GREEN ADD OVERFLOW */}

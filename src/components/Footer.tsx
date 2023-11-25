@@ -23,7 +23,7 @@ const Footer = () => {
                             >
                                 {FOOTER_CONTACT_INFO.links.map(link => (
                                     <a
-                                        href='/'
+
                                         key={link.label}
                                         className="flex gap-4 md:flex-col lg:flex-row"
                                     >

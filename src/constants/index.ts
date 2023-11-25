@@ -69,8 +69,8 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Entre em Contato",
   links: [
-    { label: "WhatsApp", value: "123-456-7890" },
-    { label: "Email", value: "flydronedf@gmail.com" },
+    { label: "WhatsApp", value: "+55 (61) 9985-89206" },
+    { label: "Email", value: "contatoflydronedf@gmail.com" },
   ],
 };
 

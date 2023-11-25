@@ -29,8 +29,11 @@ export default {
         },
       },
       backgroundImage: {
-        "bg-img-1": "url('/photo1.jpg')",
-        "bg-img-2": "url('/photo2.jpg')",
+        "bg-img-1": "url('/drone-photo-1.jpg')",
+        "bg-img-2": "url('/catedral.jpeg')",
+        "bg-img-3": "url('/ponte.jpg')",
+        "bg-img-4": "url('/drone-photo-4.jpg')",
+
         "feature-bg": "url('/feature-bg.png')",
         "pattern": "url('/pattern.png')",
         "pattern-2": "url('/pattern-bg.png')",
