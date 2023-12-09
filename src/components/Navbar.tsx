@@ -24,9 +24,9 @@ const Navbar = () => {
             </a>
 
 
-            <ul className={`hidden h-full gap-12 lg:flex`}>
+            <ul className={`hidden h-full gap-12 lg:flex tracking-wide`}>
                 {NAV_LINKS.map((link) => (
-                    <a href={link.href} key={link.key} className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
+                    <a href={link.href} key={link.key} className=" regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
                         {link.label}
                     </a>
                 ))}
@@ -36,20 +36,20 @@ const Navbar = () => {
                 <div className="block">
                     <div className="flex  ">
 
-                        <a href="/" className="lg:hidden absolute flex justify-center items-center  " >
+                        <a href="/" className="tracking-wide lg:hidden absolute flex justify-center items-center  " >
                             <img src="/fulllogo.png" alt="logo" width={90}
                                 className="h-[full] overflow-hidden" />
                             <p className="text-[rgb(26,51,116)] text-2xl font-extrabold ">FLY DRONE DF</p>
                         </a>
                         <div className="  justify-center items-center mt-10">
 
-                            <ul className={`pt-5 bg-white  h-full lg:hidden flex flex-col justify-center w-screen`}>
+                            <ul className={` pt-5 bg-white  h-full lg:hidden flex flex-col justify-center w-screen`}>
                                 {NAV_LINKS.map((link) => (
                                     <>
                                         <a href={link.href} target={link.href} key={link.key}
                                             className="text-20 text-gray-50 
                                          items-center cursor-pointer pb-1.5 
-                                         transition-all hover:font-bold p-3">
+                                         transition-all hover:font-bold p-3   ">
                                             {link.label}
                                         </a>
                                         <div className="border bg-gray-20" />

@@ -43,7 +43,7 @@ export const FEATURES = [
     icon: "/location.svg",
     variant: "orange",
     description:
-      "Dê vida às suas filmagens com nosso serviço especializado de Edição de Vídeos. Nossa equipe habilidosa utiliza técnicas avançadas para transformar suas capturas aéreas em narrativas visualmente impactantes. Da seleção cuidadosa de cenas à incorporação de trilha sonora envolvente, cada detalhe é refinado para criar uma experiência cativante.",
+      "Dê vida às suas filmagens com nosso serviço especializado de Edição de Vídeos. Utilizamos técnicas avançadas para transformar suas capturas aéreas em narrativas visualmente impactantes. Da seleção cuidadosa de cenas à incorporação de trilha sonora envolvente, cada detalhe é refinado para criar uma experiência cativante",
   },
 ];
 
@@ -79,6 +79,6 @@ export const SOCIALS = {
   links: [
     { link: "https://www.instagram.com/flydronedf/", logo: "/instagram.svg" },
     { link: "https://www.tiktok.com/@flydronedf", logo: "/tiktok.svg" },
-    { link: "https://www.youtube.com/@flydronedf", logo: "/youtube.svg" },
+    { link: "https://www.youtube.com/@Flydronedf17", logo: "/youtube.svg" },
   ],
 };

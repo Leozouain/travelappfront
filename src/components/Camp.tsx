@@ -72,7 +72,7 @@ const Camp = () => {
                     <SwiperSlide><Slider
                         id='slide1'
                         backgroundImage="bg-bg-img-1"
-                        title="Ponte JK"
+                        title="Rodoviaria"
                         subtitle="Brasilia - DF"
                         peopleJoined="50+ Joined"
                     /></SwiperSlide>
@@ -104,23 +104,7 @@ const Camp = () => {
 
             </div>
 
-            {/* <Slider
-                    id='slide1'
-                    backgroundImage="bg-bg-img-1"
-                    title="Ponte JK"
-                    subtitle="Brasilia - DF"
-                    peopleJoined="50+ Joined"
-                /> */}
-            {/* <video src="/catedral.mp4" autoPlay
-                    loop ></video>
 
-                <Slider
-                    id='slide2'
-                    backgroundImage="bg-bg-img-2"
-                    title="Explanada dos Ministerios"
-                    subtitle="Brasilia - DF"
-                    peopleJoined="50+ Joined"
-                /> */}
 
 
             {/* GREEN ADD OVERFLOW */}
@@ -133,13 +117,13 @@ const Camp = () => {
                     <p className="regular-14 xl:regular-16 mt-5 text-white">
                         "Deixe-nos mostrar o caminho! Com nossa paixão por capturar
                         momentos extraordinários e transformá-los em experiências
-                        inesquecíveis, oferecemos uma gama de serviços de filmagem
-                        com drones e edição de vídeo de última geração. Do registro
-                        aéreo de tirar o fôlego ao storytelling envolvente, nossa equipe
-                        especializada está pronta para elevar sua visão e proporcionar
-                        resultados que deixarão uma impressão duradoura. Transforme seu
-                        evento ou negócio em algo verdadeiramente memorável com o poder
-                        da filmagem com drones e edição criativa.
+                        inesquecíveis, oferecemos uma gama de serviços de filmagem com
+                        drones e edição de vídeo de última geração. Do registro aéreo
+                        de tirar o fôlego ao storytelling envolvente, estamos prontos
+                        para elevar sua visão e proporcionar resultados que deixarão
+                        uma impressão duradoura. Transforme seu evento ou negócio em
+                        algo verdadeiramente memorável com o poder da filmagem com
+                        drones e edição criativa.
                     </p>
                     <img
                         src='/drone_icon.png'

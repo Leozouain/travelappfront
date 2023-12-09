@@ -30,11 +30,7 @@ const Hero = () => {
                     Voe Mais Alto!
                 </h1>
                 <p className="regular-16 mt-6 xl:text-white text-gray-30 xl:max-w-[520px]">
-                    "Nós da <span className="font-extrabold">Fly Drone DF</span>, somos apaixonados por transformar
-                    momentos em obras-primas cinematográficas. Com nossa expertise em
-                    filmagem com drones e edição de vídeo, elevamos a narrativa visual
-                    a novos patamares.
-                    Cada voo é uma busca pela perfeição, cada edição uma obra de arte.
+                    "Nosso compromisso com a <span className="font-extrabold">Qualidade, Consistência e Rapidez </span>é o alicerce do nosso negócio. Com uma atenção meticulosa aos detalhes, garantimos que cada filmagem seja uma obra-prima. A consistência em nossa entrega garante que você sempre receba o melhor, não importa quando ou onde. E nossa habilidade de resposta rápida significa que estaremos lá para capturar os momentos que importam, sem demora. Quando você nos escolhe, está escolhendo um padrão de excelência que tornará seu projeto único e notável. Transforme suas visões em realidade com a nossa abordagem dedicada a qualidade, consistência e rapidez.
                 </p>
 
                 <div className="my-11 flex flex-wrap gap-5">
